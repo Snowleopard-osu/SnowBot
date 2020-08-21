@@ -1,0 +1,10 @@
+.settings/
+bin/
+data/commandList.csv
+data/adminList.csv
+data/laststat.txt
+logs/
+target/
+.classpath
+.project
+settings.json
