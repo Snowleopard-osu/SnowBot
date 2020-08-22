@@ -16,7 +16,6 @@ import discord4j.core.object.presence.Presence;
 import discord4j.core.object.presence.Status;
 
 public class SnowBot {
-	/** These will be changed to env vars or args eventually **/
 	private static String SNOW_BOT_ID = "";
 	private static Settings SETTINGS;
 	private static Map<String, Command> commands = new HashMap<>(); // Holds all commands, actually what is executed as a Command (aka MessageCreateEvent)
